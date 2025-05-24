@@ -1662,7 +1662,7 @@
 
 <style>
   /** make it global to be able to apply it also for anchored select */
-  :global(.sv-hidden-element) { opacity: 0; position: absolute; z-index: -2; top: 0; height: var(--sv-min-height, 30px)}
+  :global(.sv-hidden-element) { opacity: 0; position: absolute; z-index: -2; top: 0; height: var(--sv-min-height, 30px); width:100%;}
 
   /* stylable props */
   /*
